@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body{
     line-height: 1.6;
 }
@@ -22,7 +20,6 @@ form{
     align-items: center;
     margin-bottom: 60px;
 }
-
 #search-input{
     width: 250px;
     max-width: 400px;
@@ -33,7 +30,6 @@ form{
     font-size: 18px;
     color: #333;
 }
-
 #search-button{
     padding: 10px 20px;
     background-color: #138065;
@@ -90,12 +86,10 @@ form{
     cursor: pointer;
     display: none;
 }
-
 @media screen and (max-width: 768px) {
      .search-results{
         padding: 20px;
      }
-
     .search-result{
         width: 45%;
     }
@@ -103,5 +97,4 @@ form{
 @media screen and (max-width: 480px) {
     .search-result{
         width: 100%;
-    }
-}
+    }}
